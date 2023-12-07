@@ -1,0 +1,52 @@
+<div id="sideContainer" class="side-container">
+    {{ if eq .Title .Site.Title}}
+    <a class="a-block nav-head active" href="{{ "" | absLangURL }}">
+    {{ else }}
+    <a class="a-block nav-head false" href="{{ "" | absLangURL }}">
+    {{ end }}
+        <div class="nav-title">
+            {{.Site.Title}}
+        </div>
+        {{ with .Site.Params.subtitle }}
+        <div class="nav-subtitle">
+            {{.}}
+        </div>
+        {{ end }}
+    </a>
+
+    <div class="nav-link-list">
+        {{ $current := .RelPermalink | absLangURL }}
+        {{ range .Site.Menus.main }}
+            {{$actived := "false"}}
+            <!-- A problem caused by slash: if you use "eq" directly, you will get a result of "/tags/" and "/tags" -->
+            {{if hasPrefix  (.URL|absLangURL) $current}}
+                {{$actived = "active"}}
+            {{end}}
+            <div class="nav-link-item">
+                <a class="a-block nav-link-item {{ $actived }}" href="{{ .URL }}">
+                    {{ .Name }}
+                </a>
+                {{ if .HasChildren }}
+                    {{ range .Children }}
+
+                        <div class="nav-link-subitem">
+                            {{$actived := "false"}}
+                            <!-- A problem caused by slash: if you use "eq" directly, you will get a result of "/tags/" and "/tags" -->
+                            {{if hasPrefix (.URL|absLangURL) $current }}
+                                {{$actived = "active"}}
+                            {{end}}
+                            <a class="a-block nav-link-subitem {{ $actived }}" href="{{ .URL }}"> {{ .Name }} </a>
+                        </div>
+                    {{ end }}
+                {{ end }}
+            </div>
+        {{ end }}
+    </div>
+
+
+
+    <div class="nav-footer">
+        {{partial "copyright.html" .}}
+    </div>
+
+</div>
