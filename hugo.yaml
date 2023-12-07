@@ -62,3 +62,13 @@ params.giscus:
     data_lang: "en"
     crossorigin: "anonymous"
 
+menu:
+  main:
+  - name: Contributing
+    identifier: contrib
+    weight: 3
+    pageRef: /contributing
+  - name: Code submit's
+    pageRef: /tidy-code
+    identifier: tidyup
+    weight: 5

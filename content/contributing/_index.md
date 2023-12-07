@@ -3,11 +3,6 @@ title: Contributing
 description: 'An Overview on how to support us creating or modify documents. And how you can contribute with your own component or suggest changes to the existing infrastructur'
 featured_image: /images/logo-text.svg
 date: 2023-12-07T04:44:25+01:00
-
-menu:
-  main:
-    identifier: contrib
-    weight: 3
 ---
 
 
