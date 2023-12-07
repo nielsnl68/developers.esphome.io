@@ -4,7 +4,11 @@ description: The following overview give's a details overview what the CTidy req
 featured_image: /images/esphome-text.jpg
 date: 2023-12-07T04:44:25+01:00
 
-#menu: {main: {weight: 2}}
+menu:
+  main:
+    parent: tidyup
+    weight: 6
+
 ---
 
 

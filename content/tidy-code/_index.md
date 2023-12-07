@@ -3,6 +3,13 @@ title: Code submit's
 date: 2023-12-07T04:44:25+01:00
 
 description: 'When you think your changes or new components is word to share with the rest of the community then you can create an **Pull Request**. We handle a strickt rule about how the submitted code needs to be. In the following pagess we explain what we expect the code needs to look like. '
+
+menu:
+  main:
+    identifier: tidyup
+    weight: 5
+
+
 ---
 
 ## Contributing to ESPHome
