@@ -22,20 +22,19 @@
             {{if hasPrefix  (.URL|absLangURL) $current}}
                 {{$actived = "active"}}
             {{end}}
-            <div class="nav-link-item">
-                <a class="a-block nav-link-item {{ $actived }}" href="{{ .URL }}">
+            <div class="">
+                <a class="a-block nav-link-item  {{ $actived }}" href="{{ .URL }}">
                     {{ .Name }}
                 </a>
                 {{ if .HasChildren }}
                     {{ range .Children }}
-
-                        <div class="nav-link-subitem">
-                            {{$actived := "false"}}
-                            <!-- A problem caused by slash: if you use "eq" directly, you will get a result of "/tags/" and "/tags" -->
-                            {{if hasPrefix (.URL|absLangURL) $current }}
-                                {{$actived = "active"}}
-                            {{end}}
-                            <a class="a-block nav-link-subitem {{ $actived }}" href="{{ .URL }}"> {{ .Name }} </a>
+                        {{$actived := "false"}}
+                        <!-- A problem caused by slash: if you use "eq" directly, you will get a result of "/tags/" and "/tags" -->
+                        {{if hasPrefix (.URL|absLangURL) $current }}
+                            {{$actived = "active"}}
+                        {{end}}
+                        <div class="nav-link-subitem {{ $actived }}">
+                            <a class="a-block" ref="{{ .URL }}"> {{ .Name }} </a>
                         </div>
                     {{ end }}
                 {{ end }}
