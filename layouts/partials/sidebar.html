@@ -17,25 +17,25 @@
     <div class="nav-link-list">
         {{ $current := .RelPermalink | absLangURL }}
         {{ range .Site.Menus.main }}
-            {{$actived := "false"}}
+            {{$actived := ""}}
             <!-- A problem caused by slash: if you use "eq" directly, you will get a result of "/tags/" and "/tags" -->
-            {{if hasPrefix  (.URL|absLangURL) $current}}
-                {{$actived = "active"}}
+            {{if hasPrefix $current (.URL|absLangURL) }}
+                {{$actived = " active"}}
             {{end}}
             <div class="">
-                <a class="a-block nav-link-item  {{ $actived }}" href="{{ .URL }}">
+                <a class="a-block nav-link-item{{ $actived }}" href="{{ .URL }}">
                     {{ .Name }}
                 </a>
                 {{ if .HasChildren }}
-                    {{ range .Children }}
-                        {{$actived := "false"}}
-                        <!-- A problem caused by slash: if you use "eq" directly, you will get a result of "/tags/" and "/tags" -->
-                        {{if hasPrefix (.URL|absLangURL) $current }}
-                            {{$actived = "active"}}
-                        {{end}}
-                        <div class="nav-link-subitem {{ $actived }}">
-                            <a class="a-block" ref="{{ .URL }}"> {{ .Name }} </a>
-                        </div>
+                    {{ if true }}
+                        {{ range .Children }}
+                            {{$actived := ""}}
+                            <!-- A problem caused by slash: if you use "eq" directly, you will get a result of "/tags/" and "/tags" -->
+                            {{if hasPrefix $current (.URL|absLangURL) }}
+                                {{$actived = " border-right border-danger rounded-right "}}
+                            {{end}}
+                            <a class="a-block nav-link-subitem{{ $actived }}" href="{{ .URL }}"> {{ .Name }} </a>
+                        {{ end }}
                     {{ end }}
                 {{ end }}
             </div>
