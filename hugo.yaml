@@ -20,6 +20,7 @@ params:
   subtitle: "Themed by Diary."
   enableGitalk: false
   enableGiscus: false
+  favicon: "/favicon/favicon.ico"
 
 # Microsoft Clarity (https://clarity.microsoft.com/) is a free user behavior recording and analytics tool
 clarity: "abcdefghzd"
