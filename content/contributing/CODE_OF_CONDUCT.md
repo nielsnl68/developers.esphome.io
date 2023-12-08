@@ -1,6 +1,5 @@
 ---
 title: Code of Conduct
-date: 2023-12-07T04:44:25+01:00
 
 description: The last side you'll ever need. Maybe.
 
