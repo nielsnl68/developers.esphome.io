@@ -1,5 +1,8 @@
 ---
 title: 'ESPHome Docs'
+discription: 'One of the areas of ESPHome that can always be improved is the documentation.
+If you see an issue somewhere, a spelling mistakes or if you want to share your awesome
+setup, please feel free to submit a pull request.'
 menu:
   main:
     parent: contrib
@@ -7,79 +10,11 @@ menu:
 ---
 
 ## Contributing to ESPHome-Docs
-
-.. image:: /images/logo-docs.svg
-    :align: center
-    :width: 60.0%
-    :class: dark-invert
-
-One of the areas of ESPHome that can always be improved is the documentation.
-If you see an issue somewhere, a spelling mistakes or if you want to share your awesome
-setup, please feel free to submit a pull request.
-
 The ESPHome documentation is built using `sphinx <http://www.sphinx-doc.org/>`** and uses
 `reStructuredText <http://docutils.sourceforge.net/rst.html>`** for all source files.
 
 If you're not familiar with writing rST, see :ref:`rst-syntax` for a quick refresher.
 
-Through Github
-
-* * *
-
-This guide essentially goes over the same material found in `GitHub's Editing files in another user's repository <https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files#editing-files-in-another-users-repository>`\_\_. You may also find that page helpful to read.
-
-At the bottom of each page in the docs, there is a "Edit this page on GitHub" link. Click this link and you'll see something like this:
-
-.. figure:: images/docs_ghedit_1.png
-    :align: center
-    :width: 80.0%
-    :alt: a screenshot of an rST file opened in GitHub, with the edit button circled
-
-Click the edit button to start making changes. If you're not sure about some element of syntax, see the quick-start :ref:`rst-syntax` guide.
-
-Once you've made your changes, give them a useful name and press "Propose changes". At this point, you've made the changes on your own personal copy of the docs in GitHub, but you still need to submit them to us.
-
-.. figure:: images/docs_ghedit_2.png
-    :align: center
-    :width: 80.0%
-    :alt: the commit creation screen in GitHub, with the commit title and "Propose changes" button circled
-
-To do that, you need to create a "Pull request":
-
-.. figure:: images/docs_ghedit_3.png
-    :align: center
-    :width: 80.0%
-    :alt: the pull request prompt screen in GitHub with the "Create pull request" button circled
-
-Fill out the new pull request form, replacing the `[ ]` with `[x]` to indicate that you have followed the instructions.
-
-.. figure:: images/docs_ghedit_4.png
-    :align: center
-    :width: 80.0%
-    :alt: the pull request creation screen in GitHub with the "Create pull request" button circled
-
-After waiting a while, you might see a green or a red mark next to your commit in your pull request:
-
-.. figure:: images/docs_ghedit_ci_failed.png
-    :align: center
-    :width: 80.0%
-    :alt: the pull request with a commit with a red x next to it
-
-This means that there is some error stopping your pull request from being fully processed. Click on the X, click on "Details" next to the lint step, and look and see what's causing your change to fail.
-
-.. figure:: images/docs_ghedit_ci_details.png
-    :align: center
-    :width: 80.0%
-    :alt: failed lint substep of build, with "details" link circled
-
-.. figure:: images/docs_ghedit_ci_logs.png
-    :align: center
-    :width: 80.0%
-    :alt: log messages showing reason for failed build
-
-For example, in this case, you'd want to go to line 136 of `pzemac.rst` and adjust the number of `===` so that it completely underlines the section heading.
-
-Once you make that change, the pull request will be built again, and hopefully this time where will be no other errors.
 
 Build
 
