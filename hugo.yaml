@@ -42,21 +42,6 @@ menu:
     identifier: contrib
     weight: 3
     pageRef: /contributing
-  - name: Code of Conduct
-    parent: contrib
-    identifier: coc
-    weight: 2
-    pageRef: /contributing/code_of_conduct
-  - name: Documentation
-    parent: contrib
-    identifier: docs
-    weight: 3
-    pageRef: /contributing/docs
-  - name: Code
-    parent: contrib
-    identifier: code
-    weight: 4
-    pageRef: /contributing/code
   - name: Guides
     pageRef: /guides
     identifier: guide
