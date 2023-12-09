@@ -1,0 +1,65 @@
+{{ define "main" }}
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            <div class="post-head-wrapper-text-only ">
+                {{ $featured_image := .Params.featured_image }}
+                {{ if $featured_image }}
+                    <img class="dark-invert"
+                        {{ $image :=.Resources.GetMatch (.Params.featured_image) }}
+                        {{ if $image }}
+                            src="{{$image.RelPermalink}}"
+                        {{ else }}
+                            src="{{$featured_image | absURL}}"
+                        {{ end }}
+                    >
+                {{ end }}
+                <div class="post-title">
+                    {{ .Title }}
+                    {{ if .Params.description }}
+                        <div class="post-subtitle">
+                            {{ .Params.description }}
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+
+            <div class="post-body-wrapper">
+                {{ if .Params.enableVue }}
+                    <div class="post-body">
+                {{ else }}
+                    <div class="post-body" v-pre>
+                {{ end }}
+                    {{.Content}}
+                    {{ if not .Lastmod.IsZero }}
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">{{ i18n "last_mod_on" .Page.Lastmod }}</p>
+                    {{ end }}
+                </div>
+            </div>
+
+
+            <nav class="post-pagination">
+
+                {{if .Prev}}
+                <a class="newer-posts" href="{{.Prev.RelPermalink}}">
+			        {{ i18n "prev_link" }}<br>{{.Prev.Title}}
+                </a>
+                {{end}}
+
+                {{if .Next}}
+                <a class="older-posts" href="{{.Next.RelPermalink}}">
+			        {{ i18n "next_link" }}<br>{{.Next.Title}}
+                </a>
+                {{end}}
+
+            </nav>
+            <div class="post-comment-wrapper">
+                {{ if eq .Params.comment true }}
+                    {{- partial "comment.html" . -}}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+{{ end }}
