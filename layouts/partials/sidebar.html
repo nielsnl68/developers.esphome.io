@@ -2,7 +2,7 @@
     {{ if eq .Title .Site.Title}}
     <a class="a-block nav-head active" href="{{ "" | absLangURL }}">
     {{ else }}
-    <a class="a-block nav-head false" href="{{ "" | absLangURL }}">
+    <a class="a-block nav-head pr-4" href="{{ "" | absLangURL }}">
     {{ end }}
         <div class="nav-title">
             {{.Site.Title}}
@@ -23,19 +23,17 @@
                 {{$actived = " active"}}
             {{end}}
             <div class="">
-                <a class="a-block nav-link-item{{ $actived }}" href="{{ .URL }}">
+                <a class="a-block nav-link-item{{ $actived }} pr-4 mb-1" href="{{ .URL }}">
                     {{ .Name }}
                 </a>
-                {{ if .HasChildren }}
-                    {{ if true }}
-                        {{ range .Children }}
-                            {{$actived := ""}}
-                            <!-- A problem caused by slash: if you use "eq" directly, you will get a result of "/tags/" and "/tags" -->
-                            {{if hasPrefix $current (.URL|absLangURL) }}
-                                {{$actived = " border-right border-danger rounded-right "}}
-                            {{end}}
-                            <a class="a-block nav-link-subitem{{ $actived }}" href="{{ .URL }}"> {{ .Name }} </a>
-                        {{ end }}
+                {{ if and (.HasChildren) ($actived) }}
+                    {{ range .Children }}
+                        {{$actived := ""}}
+                        <!-- A problem caused by slash: if you use "eq" directly, you will get a result of "/tags/" and "/tags" -->
+                        {{if hasPrefix $current (.URL|absLangURL) }}
+                            {{$actived = " border-right border-danger rounded-right "}}
+                        {{end}}
+                        <a class="a-block nav-link-subitem{{ $actived }}  pr-4" href="{{ .URL }}"> {{ .Name }} </a>
                     {{ end }}
                 {{ end }}
             </div>
