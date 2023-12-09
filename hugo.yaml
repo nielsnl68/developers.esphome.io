@@ -1,7 +1,7 @@
 baseURL: https://nielsnl68.github.io/developers.esphome.io/
 languageCode: 'en-us'
 title: 'ESPHome developers'
-theme: 'diary'
+theme: 'esphome'
 copyright: ESPHome by Nabu Casa
 
 
