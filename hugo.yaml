@@ -3,17 +3,22 @@ languageCode: 'en-us'
 title: 'ESPHome developers'
 theme: 'diary'
 copyright: ESPHome by Nabu Casa
+cleanDestinationDir: true
+enableEmoji: true
+enableGitInfo: true
+enableInlineShortcodes: true
+
+
 
 markup:
   markup.highlight:
     codeFences: true
-    guessSyntax: false
+    guessSyntax: true
     hl_Lines: ""
     lineNoStart: 1
     lineNos: false
     lineNumbersInTable: true
-    noClasses: true
-    style: "github-dark"
+    noClasses: false
     tabWidth: 4
 
 params:
@@ -21,9 +26,10 @@ params:
   enableGitalk: false
   enableGiscus: false
   favicon: "/favicon/favicon.ico"
+  manifest: "/site.webmanifest"
 
 # Microsoft Clarity (https://clarity.microsoft.com/) is a free user behavior recording and analytics tool
-clarity: "abcdefghzd"
+# clarity: "abcdefghzd"
 
 # Twitter Card and Open Graph settings
 enableOpenGraph: false
@@ -39,8 +45,9 @@ menu:
     identifier: contrib
     weight: 3
     pageRef: /contributing
-  - name: Code submit's
-    pageRef: /tidy-code
-    identifier: tidyup
+
+  - name: Guides
+    pageRef: /guides
+    identifier: guide
     weight: 5
 
