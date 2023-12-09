@@ -1,5 +1,8 @@
 ---
 title: Contributing
+weight: 1
+kind: section
+
 description: 'An Overview on how to support us creating or modify documents. And how you can contribute with your own component or suggest changes to the existing infrastructur'
 ---
 

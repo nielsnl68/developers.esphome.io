@@ -1,3 +1,16 @@
+---
+title: CLI commands
+
+description: This section explains how you can use the **esphome** cli tool.
+weight: 3
+menu:
+  main:
+    parent: guide
+kind: page
+
+---
+```rest
+
 Command Line Interface
 ======================
 
@@ -252,4 +265,6 @@ You can register ESPHome for auto-completion by adding the following to your ~/.
     eval "$(register-python-argcomplete esphome)"
 
 For more information, see `argcomplete <https://kislyuk.github.io/argcomplete/>`__ documentation.
+
+```
 

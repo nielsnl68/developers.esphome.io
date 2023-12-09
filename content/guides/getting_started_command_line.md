@@ -1,3 +1,13 @@
+---
+title: CLI commands
+description: This section explains how you can use the **esphome** cli tool.
+weight: 1
+menu: {main: {parent: guide}}
+kind: page
+
+---
+
+
 
 
 

@@ -1,14 +1,15 @@
 ---
 title: Submitting code
+kind: section
 
 description: 'When you think your changes or new components is word to share with the rest of the community then you can create an **Pull Request**. We handle a strickt rule about how the submitted code needs to be. In the following pagess we explain what we expect the code needs to look like. '
+
+weight: 2
 
 menu:
   main:
     parent: contrib
     identifier: code
-    weight: 6
-
 ---
 
 # Contributing to ESPHome

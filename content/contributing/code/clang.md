@@ -2,6 +2,11 @@
 title: Clang requerements
 description: The following overview give's a details overview what the CTidy requerements are.
 
+kind: page
+menu:
+  main:
+    parent: code
+    identifier: codex
 
 ---
 

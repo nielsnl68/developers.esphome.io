@@ -1,10 +1,10 @@
 ---
 title: CTidy requerements
 description: The following overview give's a details overview what the CTidy requerements are.
-
+kind: page
 menu:
   main:
-    parent: tidyup
+    parent: code
     weight: 6
 
 ---

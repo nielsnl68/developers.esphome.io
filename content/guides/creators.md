@@ -1,13 +1,12 @@
 ---
 title: Sharing devices
-description: An Overview on how to support us creating or modify documents. And how you can contribute with your own component or suggest changes to the existing infrastructur
+description: Information for creating and sharing devices using ESPHome firmware.
+menu: {main: {parent: guide}}
+weight: 1
+kind: page
+
 ---
-
-Sharing ESPHome devices
-=======================
-
-.. seo::
-    :description: Information for creating and sharing devices using ESPHome firmware.
+# Sharing ESPHome devices
 
 We have added configuration options to ESPHome to make it easier
 to create, configure, install and distribute devices running ESPHome.
@@ -16,8 +15,7 @@ No part of a "template" configuration should have any references to secrets,
 or have passwords pre-applied. ESPHome makes it easy for the end-user to add these
 themselves after they adopt the device into their own ESPHome dashboard.
 
-Example configuration
----------------------
+## Example configuration
 
 ``` yaml
 
@@ -95,7 +93,6 @@ Example configuration
       easily tweak the whole configuration or be able to uncomment follow-up tutorial steps.
 - ``improv_serial`` - :doc:`/components/improv_serial`
 
-See Also
---------
+# See Also
 
 - :ghedit:`Edit`
