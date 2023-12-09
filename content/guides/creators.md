@@ -1,3 +1,8 @@
+---
+title: Sharing devices
+description: An Overview on how to support us creating or modify documents. And how you can contribute with your own component or suggest changes to the existing infrastructur
+---
+
 Sharing ESPHome devices
 =======================
 
@@ -14,7 +19,7 @@ themselves after they adopt the device into their own ESPHome dashboard.
 Example configuration
 ---------------------
 
-.. code-block:: yaml
+``` yaml
 
     # These substitutions allow the end user to override certain values
     substitutions:
@@ -66,10 +71,9 @@ Example configuration
     # Sets up the improv via serial client for Wi-Fi provisioning
     improv_serial:
       next_url: https://example.com/project-template/manual?ip={{ip_address}}&name={{device_name}}&version={{esphome_version}}
+```
 
-
-Relevant Documentation
-----------------------
+## Relevant Documentation
 
 - ``name_add_mac_suffix`` - :ref:`esphome-mac_suffix`
 - ``project`` - :ref:`esphome-creators_project`

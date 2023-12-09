@@ -3,11 +3,6 @@ title: Clang requerements
 description: The following overview give's a details overview what the CTidy requerements are.
 
 
-menu:
-  main:
-    parent: tidyup
-    weight: 6
-
 ---
 
 # How to setup VScode to make sure CTidy runs before commiting your changes.

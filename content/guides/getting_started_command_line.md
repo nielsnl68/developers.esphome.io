@@ -1,3 +1,7 @@
+
+
+
+
 Getting Started with the ESPHome Command Line
 =============================================
 
@@ -40,7 +44,7 @@ If you want to use `docker-compose` instead, here's a sample file:
         privileged: true
         network_mode: host
         environment:
-          - USERNAME=test 
+          - USERNAME=test
           - PASSWORD=ChangeMe
 
 .. note::

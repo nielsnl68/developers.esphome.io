@@ -1,13 +1,19 @@
 ---
-title: Code submit's
+title: Submitting code
 
 description: 'When you think your changes or new components is word to share with the rest of the community then you can create an **Pull Request**. We handle a strickt rule about how the submitted code needs to be. In the following pagess we explain what we expect the code needs to look like. '
+
+menu:
+  main:
+    parent: contrib
+    identifier: code
+    weight: 6
 
 ---
 
 # Contributing to ESPHome
 
-For a detailed guide, please see <https://esphome.io/guides/contributing.html#contributing-to-esphome>
+For a detailed guide, please see [contributing-to-esphom](https://esphome.io/guides/contributing.html#contributing-to-esphome
 
 Things to note when contributing:
 
