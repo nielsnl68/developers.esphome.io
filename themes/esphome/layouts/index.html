@@ -2,27 +2,7 @@
 
     <div class="post-list-container post-list-container-no-background">
         <div class="post">
-            <div class="post-head-wrapper-text-only ">
-                {{ $featured_image := .Params.featured_image }}
-                {{ if $featured_image }}
-                    <img class="dark-invert"
-                        {{ $image :=.Resources.GetMatch (.Params.featured_image) }}
-                        {{ if $image }}
-                            src="{{$image.RelPermalink}}"
-                        {{ else }}
-                            src="{{$featured_image | absURL}}"
-                        {{ end }}
-                    >
-                {{ end }}
-                <div class="post-title">
-                    {{ .Title }}
-                    {{ if .Params.description }}
-                        <div class="post-subtitle">
-                            {{ .Params.description }}
-                        </div>
-                    {{ end }}
-                </div>
-            </div>
+            {{ partial "header.html" . }}
         </div>
 
         <div class="post-body-wrapper">

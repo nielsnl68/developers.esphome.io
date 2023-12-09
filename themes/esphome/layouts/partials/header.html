@@ -1,0 +1,22 @@
+
+            <div class="post-head-wrapper-text-only ">
+                {{ $featured_image := .Params.featured_image }}
+                {{ if $featured_image }}
+                    <img class="dark-invert"
+                        {{ $image :=.Resources.GetMatch (.Params.featured_image) }}
+                        {{ if $image }}
+                            src="{{$image.RelPermalink}}"
+                        {{ else }}
+                            src="{{$featured_image | absURL}}"
+                        {{ end }}
+                    >
+                {{ end }}
+                <div class="post-title">
+                    {{ .Title }}
+                    {{ if .Params.description }}
+                        <div class="post-subtitle{{if .Title}} pt-1{{end}}">
+                            {{ .Params.description }}
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
