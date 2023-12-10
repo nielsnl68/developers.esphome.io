@@ -4,11 +4,6 @@ title: 'ESPHome developers'
 theme: 'esphome'
 copyright: ESPHome by Nabu Casa
 
-
-
-
-markup:
-
 params:
   subtitle: "Themed by Diary."
   enableGitalk: false
