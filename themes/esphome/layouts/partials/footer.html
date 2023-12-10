@@ -1,0 +1,5 @@
+{{- partial "journal.html" . -}} {{/* desktop footer */}}
+
+<script src="{{"js/journal.js" | relURL}}"></script>
+
+{{- if not .Site.IsServer -}}{{/* partial "disqus.html" . */}}{{- end -}}

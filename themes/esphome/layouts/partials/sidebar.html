@@ -26,7 +26,7 @@
                 <a class="a-block nav-link-item{{ $actived }}" href="{{ .URL }}">
                     {{ .Name }}
                 </a>
-                {{ if and (.HasChildren) ($actived) }}
+                {{ if and ($actived)  (.HasChildren)}}
                     {{ range .Children }}
                         {{$actived := ""}}
                         <!-- A problem caused by slash: if you use "eq" directly, you will get a result of "/tags/" and "/tags" -->

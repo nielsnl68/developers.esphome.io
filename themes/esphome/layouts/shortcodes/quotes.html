@@ -1,0 +1,27 @@
+{{- /*
+Variables
+---------
+author or cite: Must have one of them
+details: Volume, page, or other minor details, optional
+.Inner: The actual quotation
+
+Notes
+-----
+This code is from:
+https://github.com/loikein/hugo-tufte/blob/main/layouts/shortcodes/blockquote.html
+Original author: @shawnohare https://github.com/shawnohare
+*/ -}}
+<blockquote>
+{{ .Inner | $.Page.RenderString (dict "display" "block") }}
+{{- if or (.Get "author") (.Get "cite") -}}
+<footer>
+—&#32;
+{{- with .Get "author" -}}{{ . | markdownify }}{{- end -}}
+{{- if .Get "cite" -}}
+  {{- if (.Get "author") -}},&#32;{{- end -}}
+  <cite>{{ .Get "cite" | markdownify }}</cite>
+{{- with .Get "detail" -}}, {{ . | markdownify }}{{- end -}}
+{{- end -}}
+</footer>
+{{- end -}}
+</blockquote>

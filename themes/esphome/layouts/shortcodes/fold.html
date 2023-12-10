@@ -1,0 +1,9 @@
+{{ .Scratch.Set "lastp" (sub (.Params | len) 1) }}
+<details {{ if .Get 0 | eq "open"}} open {{ end }}>
+<summary>
+{{ if .Get 0 | eq "open"}}{{ i18n "click_to_close" }}{{ else }}{{ i18n "click_to_open" }}{{ end }}{{ .Get (.Scratch.Get "lastp") | markdownify -}}
+</summary>
+<div class="fold__details">
+{{ .Inner | safeHTML -}}
+</div>
+</details>
