@@ -16,52 +16,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/</loc>
-         <lastmod>2024-02-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/setup-vscode/</loc>
-         <lastmod>2024-02-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/component_creation/</loc>
-         <lastmod>2024-02-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/component_creation/clang/</loc>
-         <lastmod>2024-02-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/component_creation/code_standard/</loc>
-         <lastmod>2024-02-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/component_creation/ctidy/</loc>
-         <lastmod>2024-02-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/component_documentation/</loc>
-         <lastmod>2024-02-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/component_documentation/github/</loc>
-         <lastmod>2024-02-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/component_documentation/syntax/</loc>
-         <lastmod>2024-02-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://nielsnl68.github.io/developers.esphome.io/guides/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/guides/clang/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -71,12 +31,52 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/guides/code_standard/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://nielsnl68.github.io/developers.esphome.io/guides/creators/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/guides/ctidy/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/guides/documentate/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/guides/github/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://nielsnl68.github.io/developers.esphome.io/guides/make_a_component/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/guides/setup-vscode/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/guides/setup_dev_env/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/guides/submitting%20code/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/guides/syntax/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -117,11 +117,6 @@
     </url>
     <url>
          <loc>https://nielsnl68.github.io/developers.esphome.io/references/python%20scripts/code_generation/</loc>
-         <lastmod>2024-02-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/references/python%20scripts/code_generation/codegen/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -167,6 +162,46 @@
     </url>
     <url>
          <loc>https://nielsnl68.github.io/developers.esphome.io/references/python%20scripts/yaml_validation/voluptuous_schema/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/guides/category/linters/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/guides/category/others/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/guides/category/documentation/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/guides/category/codebase/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/guides/category/howtos/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/guides/page/2/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/guides/page/3/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/guides/page/4/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
