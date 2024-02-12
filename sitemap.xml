@@ -16,11 +16,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/tags/</loc>
-         <lastmod>2024-02-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
@@ -137,11 +132,6 @@
     </url>
     <url>
          <loc>https://nielsnl68.github.io/developers.esphome.io/references/python%20scripts/yaml_validation/voluptuous_schema/</loc>
-         <lastmod>2024-02-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/tags/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
