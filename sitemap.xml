@@ -6,12 +6,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/</loc>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/code_of_conduct/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/CODE_OF_CONDUCT/</loc>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/license/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/tags/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -21,32 +31,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/code/</loc>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/component_creation/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/code/clang/</loc>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/component_creation/clang/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/code/ctidy/</loc>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/component_creation/ctidy/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/docs/</loc>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/component_documentation/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/docs/github/</loc>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/component_documentation/github/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/docs/syntax/</loc>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/contributing/component_documentation/syntax/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -71,17 +81,52 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://nielsnl68.github.io/developers.esphome.io/references/</loc>
-         <lastmod>2024-02-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://nielsnl68.github.io/developers.esphome.io/references/components/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nielsnl68.github.io/developers.esphome.io/references/components/touchscreen/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/references/python%20API%27s/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/references/python%20API%27s/CORE%20API/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/references/python%20API%27s/generator/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/references/python%20API%27s/generator_helpers/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/references/python%20API%27s/validation/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/references/python%20API%27s/validation_helpers/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/references/python%20API%27s/voluptuous_schema/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nielsnl68.github.io/developers.esphome.io/tags/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
